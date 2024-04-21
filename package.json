@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon npm src/index.js"
+    "start:dev": "nodemon src/index.js",
+    "start:prod": "node src/index.js"
   },
-  "author": "Hazziel Ortiz e Irving Morales",
+  "author": "Haziel Ortiz e Irving Morales",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
